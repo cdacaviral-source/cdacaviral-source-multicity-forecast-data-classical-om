@@ -94,5 +94,23 @@
     "city": "Chennai",
     "adjusted": false,
     "groups": {}
+  },
+  {
+    "date": "2026-06-24",
+    "city": "Chennai",
+    "adjusted": true,
+    "groups": {
+      "PRmsl/mv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05
+        },
+        "GRU": {
+          "lr": 0.0003
+        },
+        "ANN": {
+          "lr": 5e-05
+        }
+      }
+    }
   }
 ]
