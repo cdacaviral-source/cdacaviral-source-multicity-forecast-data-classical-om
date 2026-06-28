@@ -159,5 +159,34 @@
         }
       }
     }
+  },
+  {
+    "date": "2026-06-27",
+    "city": "Mumbai",
+    "adjusted": true,
+    "groups": {
+      "TMP2m/uv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05
+        },
+        "GRU": {
+          "lr": 5e-05
+        },
+        "ANN": {
+          "lr": 5e-05
+        }
+      },
+      "TMP2m/mv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05
+        },
+        "GRU": {
+          "lr": 5e-05
+        },
+        "ANN": {
+          "lr": 5e-05
+        }
+      }
+    }
   }
 ]
