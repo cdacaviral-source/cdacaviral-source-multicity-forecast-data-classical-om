@@ -154,5 +154,34 @@
         }
       }
     }
+  },
+  {
+    "date": "2026-06-28",
+    "city": "Chennai",
+    "adjusted": true,
+    "groups": {
+      "RH2m/uv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05
+        },
+        "GRU": {
+          "lr": 5e-05
+        },
+        "ANN": {
+          "lr": 0.0001
+        }
+      },
+      "RH2m/mv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05
+        },
+        "GRU": {
+          "lr": 5e-05
+        },
+        "ANN": {
+          "lr": 5e-05
+        }
+      }
+    }
   }
 ]
