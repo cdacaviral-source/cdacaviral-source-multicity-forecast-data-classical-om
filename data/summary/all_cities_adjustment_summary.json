@@ -1,11 +1,33 @@
 {
-  "generated_at": "2026-06-29T06:23:23.883298",
+  "generated_at": "2026-06-30T06:21:44.529928",
   "cities": {
     "Mumbai": {
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "city": "Mumbai",
       "adjusted": true,
       "groups": {
+        "RH2m/uv": {
+          "HLSTM_GRU": {
+            "lr": 5e-05
+          },
+          "GRU": {
+            "lr": 0.0003
+          },
+          "ANN": {
+            "lr": 5e-05
+          }
+        },
+        "RH2m/mv": {
+          "HLSTM_GRU": {
+            "lr": 5e-05
+          },
+          "GRU": {
+            "lr": 5e-05
+          },
+          "ANN": {
+            "lr": 5e-05
+          }
+        },
         "TMP2m/uv": {
           "HLSTM_GRU": {
             "lr": 0.0003
@@ -19,10 +41,10 @@
         },
         "TMP2m/mv": {
           "HLSTM_GRU": {
-            "lr": 5e-05
+            "lr": 0.0001
           },
           "GRU": {
-            "lr": 5e-05
+            "lr": 0.0003
           },
           "ANN": {
             "lr": 5e-05
@@ -31,13 +53,25 @@
       }
     },
     "Delhi": {
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "city": "Delhi",
-      "adjusted": false,
-      "groups": {}
+      "adjusted": true,
+      "groups": {
+        "PRmsl/uv": {
+          "HLSTM_GRU": {
+            "lr": 0.0001
+          },
+          "GRU": {
+            "lr": 0.0003
+          },
+          "ANN": {
+            "lr": 0.0003
+          }
+        }
+      }
     },
     "Chennai": {
-      "date": "2026-06-28",
+      "date": "2026-06-29",
       "city": "Chennai",
       "adjusted": true,
       "groups": {
@@ -49,15 +83,15 @@
             "lr": 5e-05
           },
           "ANN": {
-            "lr": 0.0001
+            "lr": 5e-05
           }
         },
         "RH2m/mv": {
           "HLSTM_GRU": {
-            "lr": 5e-05
+            "lr": 0.0003
           },
           "GRU": {
-            "lr": 5e-05
+            "lr": 0.0003
           },
           "ANN": {
             "lr": 5e-05
