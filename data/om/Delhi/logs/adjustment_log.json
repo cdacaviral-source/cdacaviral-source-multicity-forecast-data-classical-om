@@ -154,5 +154,23 @@
     "city": "Delhi",
     "adjusted": false,
     "groups": {}
+  },
+  {
+    "date": "2026-06-29",
+    "city": "Delhi",
+    "adjusted": true,
+    "groups": {
+      "PRmsl/uv": {
+        "HLSTM_GRU": {
+          "lr": 0.0001
+        },
+        "GRU": {
+          "lr": 0.0003
+        },
+        "ANN": {
+          "lr": 0.0003
+        }
+      }
+    }
   }
 ]
