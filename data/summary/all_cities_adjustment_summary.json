@@ -1,48 +1,60 @@
 {
-  "generated_at": "2026-07-06T10:45:40.166001",
+  "generated_at": "2026-07-07T10:50:50.861484",
   "cities": {
     "Mumbai": {
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "city": "Mumbai",
-      "adjusted": false,
-      "groups": {}
+      "adjusted": true,
+      "groups": {
+        "TMP2m/mv": {
+          "HLSTM_GRU": {
+            "lr": 0.0003
+          },
+          "GRU": {
+            "lr": 5e-05
+          },
+          "ANN": {
+            "lr": 5e-05
+          }
+        }
+      }
     },
     "Delhi": {
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "city": "Delhi",
       "adjusted": false,
       "groups": {}
     },
     "Chennai": {
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "city": "Chennai",
       "adjusted": true,
       "groups": {
         "PRmsl/mv": {
           "HLSTM_GRU": {
-            "lr": 0.0003
+            "lr": 0.0001
           },
           "GRU": {
-            "lr": 5e-05
+            "lr": 0.0001
           },
           "ANN": {
-            "lr": 0.0003
+            "lr": 5e-05
           }
         },
         "RH2m/uv": {
           "HLSTM_GRU": {
-            "lr": 5e-05
+            "lr": 0.0001
           },
           "GRU": {
             "lr": 5e-05
           },
           "ANN": {
-            "lr": 0.0001
+            "lr": 5e-05
           }
         },
         "RH2m/mv": {
           "HLSTM_GRU": {
-            "lr": 5e-05
+            "lr": 0.0001
           },
           "GRU": {
             "lr": 5e-05
@@ -53,24 +65,13 @@
         },
         "TMP2m/uv": {
           "HLSTM_GRU": {
-            "lr": 0.0001
-          },
-          "GRU": {
-            "lr": 5e-05
-          },
-          "ANN": {
-            "lr": 5e-05
-          }
-        },
-        "TMP2m/mv": {
-          "HLSTM_GRU": {
             "lr": 0.0003
           },
           "GRU": {
-            "lr": 0.0001
+            "lr": 0.0003
           },
           "ANN": {
-            "lr": 5e-05
+            "lr": 0.0001
           }
         }
       }
