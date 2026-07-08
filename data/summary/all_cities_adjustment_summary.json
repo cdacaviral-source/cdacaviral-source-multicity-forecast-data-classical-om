@@ -1,17 +1,39 @@
 {
-  "generated_at": "2026-07-07T10:50:50.861484",
+  "generated_at": "2026-07-08T10:46:35.731814",
   "cities": {
     "Mumbai": {
-      "date": "2026-07-06",
+      "date": "2026-07-07",
       "city": "Mumbai",
       "adjusted": true,
       "groups": {
-        "TMP2m/mv": {
+        "RH2m/mv": {
           "HLSTM_GRU": {
+            "lr": 5e-05
+          },
+          "GRU": {
             "lr": 0.0003
+          },
+          "ANN": {
+            "lr": 5e-05
+          }
+        },
+        "TMP2m/uv": {
+          "HLSTM_GRU": {
+            "lr": 5e-05
           },
           "GRU": {
             "lr": 5e-05
+          },
+          "ANN": {
+            "lr": 5e-05
+          }
+        },
+        "TMP2m/mv": {
+          "HLSTM_GRU": {
+            "lr": 0.0001
+          },
+          "GRU": {
+            "lr": 0.0003
           },
           "ANN": {
             "lr": 5e-05
@@ -20,13 +42,13 @@
       }
     },
     "Delhi": {
-      "date": "2026-07-06",
+      "date": "2026-07-07",
       "city": "Delhi",
       "adjusted": false,
       "groups": {}
     },
     "Chennai": {
-      "date": "2026-07-06",
+      "date": "2026-07-07",
       "city": "Chennai",
       "adjusted": true,
       "groups": {
@@ -35,7 +57,7 @@
             "lr": 0.0001
           },
           "GRU": {
-            "lr": 0.0001
+            "lr": 0.0003
           },
           "ANN": {
             "lr": 5e-05
@@ -43,7 +65,7 @@
         },
         "RH2m/uv": {
           "HLSTM_GRU": {
-            "lr": 0.0001
+            "lr": 5e-05
           },
           "GRU": {
             "lr": 5e-05
@@ -54,10 +76,10 @@
         },
         "RH2m/mv": {
           "HLSTM_GRU": {
-            "lr": 0.0001
+            "lr": 5e-05
           },
           "GRU": {
-            "lr": 5e-05
+            "lr": 0.0003
           },
           "ANN": {
             "lr": 5e-05
@@ -65,13 +87,13 @@
         },
         "TMP2m/uv": {
           "HLSTM_GRU": {
-            "lr": 0.0003
+            "lr": 5e-05
           },
           "GRU": {
-            "lr": 0.0003
+            "lr": 5e-05
           },
           "ANN": {
-            "lr": 0.0001
+            "lr": 5e-05
           }
         }
       }
