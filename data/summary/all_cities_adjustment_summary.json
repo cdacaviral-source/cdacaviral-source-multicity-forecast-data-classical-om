@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-10T10:47:19.966546",
+  "generated_at": "2026-07-11T10:53:41.069417",
   "cities": {
     "Mumbai": {
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "city": "Mumbai",
       "adjusted": true,
       "groups": {
         "PRmsl/uv": {
           "HLSTM_GRU": {
-            "lr": 5e-05
+            "lr": 0.0001
           },
           "GRU": {
             "lr": 5e-05
@@ -19,13 +19,13 @@
         },
         "PRmsl/mv": {
           "HLSTM_GRU": {
-            "lr": 0.0001
+            "lr": 5e-05
           },
           "GRU": {
             "lr": 5e-05
           },
           "ANN": {
-            "lr": 5e-05
+            "lr": 0.0001
           }
         },
         "RH2m/uv": {
@@ -41,36 +41,25 @@
         },
         "RH2m/mv": {
           "HLSTM_GRU": {
-            "lr": 5e-05
-          },
-          "GRU": {
-            "lr": 5e-05
-          },
-          "ANN": {
-            "lr": 5e-05
-          }
-        },
-        "TMP2m/mv": {
-          "HLSTM_GRU": {
             "lr": 0.0001
           },
           "GRU": {
-            "lr": 0.0003
+            "lr": 5e-05
           },
           "ANN": {
-            "lr": 0.0003
+            "lr": 5e-05
           }
         }
       }
     },
     "Delhi": {
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "city": "Delhi",
       "adjusted": false,
       "groups": {}
     },
     "Chennai": {
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "city": "Chennai",
       "adjusted": true,
       "groups": {
@@ -79,13 +68,24 @@
             "lr": 0.0003
           },
           "GRU": {
-            "lr": 0.0003
+            "lr": 0.0001
           },
           "ANN": {
             "lr": 5e-05
           }
         },
         "RH2m/mv": {
+          "HLSTM_GRU": {
+            "lr": 5e-05
+          },
+          "GRU": {
+            "lr": 0.0003
+          },
+          "ANN": {
+            "lr": 5e-05
+          }
+        },
+        "TMP2m/uv": {
           "HLSTM_GRU": {
             "lr": 5e-05
           },
