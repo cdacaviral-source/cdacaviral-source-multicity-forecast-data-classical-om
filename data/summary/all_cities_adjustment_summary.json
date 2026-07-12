@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-11T10:53:41.069417",
+  "generated_at": "2026-07-12T10:57:38.453159",
   "cities": {
     "Mumbai": {
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "city": "Mumbai",
       "adjusted": true,
       "groups": {
         "PRmsl/uv": {
           "HLSTM_GRU": {
-            "lr": 0.0001
+            "lr": 5e-05
           },
           "GRU": {
             "lr": 5e-05
@@ -22,10 +22,10 @@
             "lr": 5e-05
           },
           "GRU": {
-            "lr": 5e-05
+            "lr": 0.0001
           },
           "ANN": {
-            "lr": 0.0001
+            "lr": 5e-05
           }
         },
         "RH2m/uv": {
@@ -36,7 +36,7 @@
             "lr": 5e-05
           },
           "ANN": {
-            "lr": 0.0001
+            "lr": 5e-05
           }
         },
         "RH2m/mv": {
@@ -45,6 +45,28 @@
           },
           "GRU": {
             "lr": 5e-05
+          },
+          "ANN": {
+            "lr": 5e-05
+          }
+        },
+        "TMP2m/uv": {
+          "HLSTM_GRU": {
+            "lr": 0.0001
+          },
+          "GRU": {
+            "lr": 5e-05
+          },
+          "ANN": {
+            "lr": 5e-05
+          }
+        },
+        "TMP2m/mv": {
+          "HLSTM_GRU": {
+            "lr": 0.0003
+          },
+          "GRU": {
+            "lr": 0.0001
           },
           "ANN": {
             "lr": 5e-05
@@ -53,22 +75,22 @@
       }
     },
     "Delhi": {
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "city": "Delhi",
       "adjusted": false,
       "groups": {}
     },
     "Chennai": {
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "city": "Chennai",
       "adjusted": true,
       "groups": {
         "RH2m/uv": {
           "HLSTM_GRU": {
-            "lr": 0.0003
+            "lr": 5e-05
           },
           "GRU": {
-            "lr": 0.0001
+            "lr": 5e-05
           },
           "ANN": {
             "lr": 5e-05
@@ -76,10 +98,10 @@
         },
         "RH2m/mv": {
           "HLSTM_GRU": {
-            "lr": 5e-05
+            "lr": 0.0003
           },
           "GRU": {
-            "lr": 0.0003
+            "lr": 5e-05
           },
           "ANN": {
             "lr": 5e-05
@@ -87,10 +109,10 @@
         },
         "TMP2m/uv": {
           "HLSTM_GRU": {
-            "lr": 5e-05
+            "lr": 0.0003
           },
           "GRU": {
-            "lr": 0.0001
+            "lr": 5e-05
           },
           "ANN": {
             "lr": 5e-05
