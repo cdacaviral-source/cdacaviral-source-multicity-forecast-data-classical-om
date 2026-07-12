@@ -244,5 +244,11 @@
     "city": "Delhi",
     "adjusted": false,
     "groups": {}
+  },
+  {
+    "date": "2026-07-11",
+    "city": "Delhi",
+    "adjusted": false,
+    "groups": {}
   }
 ]
